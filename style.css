@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+nav {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 30px;
+    flex: ;
+}
+
+nav > a:hover {
+    color: brown;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+}
+
+.aboutUs img {
+    width: 300px;
+    object-fit: contain;
+}
+
+.aboutUsDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUsDescription * {
+    padding: 5px;
+
+}
+
+.myGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.myGame > * {
+    text-align: center;
+}
+
+.myGame input, .myGame button {
+    border: none;    
+    margin: 5px;
+    min-height: 30px;
+}
+
+.myGame button {
+    width: max-content;
+    background-color: burlywood;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.myGame > button:hover {
+    /* color: yellow; */
+    background-color: brown;
+}
+
+
+.myGame input {
+    background-color: antiquewhite;
+    outline: none;
+}
+
+.choosedBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosedBlockContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choosedBlockContainer > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;    
+}
+
+.choosedElement {
+    border: 3px solid black;
+}
+
+.postsBlock {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.postsBlock h2 {
+    text-align: center;
+}
+
+.postsBlockContainer > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+/* img {
+    margin: 10px 150px;
+}
+span {
+    font-size: 15px;
+}
+.name {
+    color: brown;
+}
+#skill {
+    color: green;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+} */
